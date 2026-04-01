@@ -1,4 +1,4 @@
-__pycache/
+__pycache__/
 logs/
 *.csv
 report.html
