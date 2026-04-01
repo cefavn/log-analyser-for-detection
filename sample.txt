@@ -1,0 +1,15 @@
+PS C:\Users\Admin\VCS\qradar\log> python .\parse.py .\t1105.csv -g 'EventID,New Process Name,Process Command Line,Creator Process Name,Account Name' -f html
+
+python .\parse.py .\t1105.csv -g 'EventID,Image,CommandLine,ParentImage,ParentCommandLine,User' -f html
+
+
+ProcessPath	
+    Image (Sysmon) or New Process Name (Security)
+ProcessCmdLine	
+    CommandLine (Sysmon) or Process Command Line (Security)
+ParentProcessPath	
+    ParentImage (Sysmon) or Creator Process Name (Security)
+ParentProcessCmdLine	
+    ParentCommandLine (Sysmon) or Creator Process Command Line (Security)
+UserAccount	
+    User (Sysmon) or Account Name (Security)
